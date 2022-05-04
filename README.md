@@ -3,5 +3,5 @@
 - Map integration (Google Maps)
 - Design in (./design)
 
-# TODO: mobile and tablet design (section toggle)
+- TODO: mobile and tablet design (section toggle)
 
