@@ -6,7 +6,8 @@
     --red: #ff385c;
     --white: #fff;
     --bordergrey: rgb(0 0 0 / 0.1);
-    --textgrey: #717a82;
+    --textgrey: #717171;
+    --backgroundgrey: #ededed;
     --black: #000;
 }
 
@@ -21,6 +22,9 @@
 }
 
 /* HEADER */
+header{
+    border-bottom: 0.3px solid var(--bordergrey);
+}
 /* Navbar */
 .navbar{
     margin: 0 1rem 0 1rem;
@@ -93,3 +97,99 @@
 /* End Filters Bar */
 /* END HEADER */
 
+/* MAIN */
+main{
+    margin-top: 151px;
+    /* height: 2000px; */
+}
+
+/* HOUSING SECTION */
+.housings .card{
+    border: none;
+    border-radius: 0;
+}
+.housings .card .card-body{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.housings .card p{
+    color: var(--textgrey);
+}
+.housings .card img{
+    border-radius: 15px;
+}
+.housings .card hr{
+    width: 1.5rem;
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+.housings .card .card-text{
+    margin: 0;
+}
+.housings .card .heart i{
+    font-size: 1.5rem;
+}
+.housings .card .categ{
+    margin-top: 5px;
+}
+.housings .card .categ span{
+    font-weight: bold;
+    border: 0.3px solid var(--bordergrey);
+    border-radius: 5px;
+    padding: 0 0.5rem;
+}
+.housings .card .categ i{
+    font-size: 0.8rem;
+    margin-right: 0.1rem;
+}
+.housings .card .rating i{
+    color: var(--red);
+}
+.housings .card .rating .sale{
+    text-decoration: line-through;
+}
+.card-separation{
+    width: 95%;
+    margin: 0 auto 20px auto;
+}
+/* END HOUSING SECTION */
+
+/* MAP SECTION */
+/* fixed map */
+.map{
+    position: sticky;
+    top: 9.4em;
+    height: 48.5em;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    /* TODO: display map */
+    /* display: none; */
+   
+}
+/* END MAP SECTION */
+
+/* END MAIN */
+
+/* FOOTER */
+.footer-box{
+    background-color: var(--backgroundgrey);
+}
+.footer-box footer{
+    width: 85%;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    margin: 0 auto;
+}
+.footer-box footer .col-2{
+    margin-right: 100px;
+}
+.footer-box footer h6{
+    font-weight: bold;
+}
+.footer-box footer a{
+    color: var(--black);
+}
+/* END FOOTER */
