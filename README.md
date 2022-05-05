@@ -1,4 +1,12 @@
 ##### BOOTSTRAP PROJECT #####
-Reproduire la page Annonces de la plateforme airbnb.fr
-Design dans (./design)
+BOOTSTRAP PROJECT
+
+- Housing list page of the airbnb.fr platform, using HTML, CSS and Bootstrap
+
+- Map integration (Google Maps)
+
+- Design in (./design)
+
+- TODO: mobile and tablet design (section toggle)
+
 
