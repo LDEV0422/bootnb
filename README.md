@@ -1,5 +1,4 @@
 ##### BOOTSTRAP PROJECT #####
-BOOTSTRAP PROJECT
 
 - Housing list page of the airbnb.fr platform, using HTML, CSS and Bootstrap
 
@@ -9,4 +8,5 @@ BOOTSTRAP PROJECT
 
 - TODO: mobile and tablet design (section toggle)
 
+Visualization page: (https://ldev0422.github.io/bootnb/)
 
