@@ -8,5 +8,5 @@
 
 - TODO: mobile and tablet design (section toggle)
 
-Visualization page: (https://ldev0422.github.io/bootnb/)
+[Visualize page](https://ldev0422.github.io/bootnb/)
 
